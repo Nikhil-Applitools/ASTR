@@ -1,4 +1,4 @@
-
+<sitemap>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>
@@ -34,3 +34,4 @@ https://www.coles.com.au/store-locator/stores/wa/karratha-313
 <priority>0.80</priority>
 </url>
 </urlset>
+</sitemap>
