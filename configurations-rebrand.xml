@@ -1,0 +1,28 @@
+<definitions>
+	<!-- <configurationGroup groupName="rebrand-configuration" configurationsNames="WindowsLocalGrid,MacOSLocalGrid" />	 -->
+
+	<configuration name="WindowsLocalGrid"> 
+		<applitools>applitoolsConf_windows.xml</applitools>
+		<driver >chrome</driver>
+		<viewport width="1200" height="600"></viewport>	
+		<visualGrid>
+			<browser width="1200" height="800" type="chrome" />
+			<browser width="700" height="500" type="FIREFOX" />
+			<browser width="1600" height="1200" type="IE_11" />
+			<browser width="1024" height="768" type="EDGE" />
+			<browser width="1200" height="800" type="IE_10" />
+			<device name="iPhone_X"/>
+			<device name="iPhone_6_7_8"/>
+			<device name="Galaxy_S5"/>
+			<device name="iPad"/>
+		</visualGrid>		
+	</configuration>
+	<configuration name="MacOSLocalGrid"> 
+		<applitools>applitoolsConf_safari.xml</applitools>
+		<driver >chrome</driver>
+		<viewport width="1200" height="600"></viewport>	
+		<visualGrid>
+		<browser width="1920" height="1080" type="safari" />
+		</visualGrid>		
+	</configuration>
+</definitions>
